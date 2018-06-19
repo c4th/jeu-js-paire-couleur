@@ -1,0 +1,55 @@
+.clearfix::before,
+.clearfix::after {
+	content: "";
+	display: table;
+}
+.clearfix::after {
+	clear: both;
+}
+
+
+body {
+	background: #000;
+}
+
+#cartes {
+	background: #222;
+	padding: 30px;
+	width: 840px;
+	margin: 150px auto;
+}
+
+#cartes div {
+	float: left;
+	width: 100px;
+	height: 100px;
+	margin: 10px;	
+}
+
+#cartes .hide {
+	background: grey;
+}
+
+.carre_a.visible {
+	background-color: #febbbb;
+}
+
+.carre_b.visible {
+	background-color: #60abf8;
+}
+
+.carre_c.visible {
+	background-color: #a9db80;	
+}
+
+.carre_d.visible {
+	background-color: #ffa84c;			
+}
+
+.carre_e.visible {
+	background-color: #cf0404;
+}
+
+.carre_f.visible {
+	background-color: #A692D1;
+}
